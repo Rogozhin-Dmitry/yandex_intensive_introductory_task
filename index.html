@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Dmitry Rogozhin</title>
+    <link href="static/css/base.css" rel="stylesheet">
+    <link href="static/css/dark_theme.css" rel="stylesheet" id="curr-theme">
+    <link rel="shortcut icon" href="static/icons/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="page">
+    <div class="container-wrapper" id="container-wrapper">
+        <header class="page_header" id="page_header">
+            <div class="logo">
+                <p class="logo_text">Dmitry Rogozhin</p>
+            </div>
+
+            <div class="menu-container" id="menu-container">
+                <div class="menu-button" id="burger-menu-button">
+                    <img src="static/icons/white/menu.png" alt="menu">
+                </div>
+                <nav class="main_nav">
+                    <a class="main_nav_link" href="#main">Главная</a>
+                    <a class="main_nav_link" href="#my_patch">Мой путь</a>
+                    <a class="main_nav_link" href="#f_links">Контакты</a>
+                    <a class="main_nav_link" id="change-theme">Светлая тема</a>
+                </nav>
+            </div>
+        </header>
+        <div class="container">
+            <section class="section main_page" id="main">
+                <h1 class="section_title"><span>Основная информация</span></h1>
+                <div class="content">
+                    <article class="offer_structure">
+                        <h2 class="offer_title">Обо мне</h2>
+                        <h4 class="offer_subtitle">Приветствую всех посетителей данной страницы. Меня зовут Рогожин
+                        Дмитрий Александрович, мне 18 лет, я живу в Москве и учусь на первом курсе МИИТа.</h4>
+                    </article>
+                    <div class="offer_img"><img src="static/images/me_and_cat.jpg" alt="me"></div>
+                </div>
+            </section>
+            <section class="section my_stats" id="my_patch">
+                <h1 class="section_title"><span>Мой путь</span></h1>
+                <div class="content">
+                    <div class="card">
+                        <article class="offer_structure">
+                            <h2 class="offer_title">Самое начало</h2>
+                            <h4 class="offer_subtitle">Начиная с 5-го класса я занимаюсь программированием, первые 1.5
+                            года я занимался PascalABC (мы все с него начинали......).</h4>
+                        </article>
+                        <div class="language_img"><img src="static/images/pascal.jpg" alt="pascal"></div>
+                    </div>
+                    <div class="card">
+                        <article class="offer_structure">
+                            <h2 class="offer_title">Жизнь сложна</h2>
+                            <h4 class="offer_subtitle">Потом (когда я закончил 3х годичную программу нашего курса за 1.5),
+                            я понял что Pascal мёртв и ушёл скитаться по другим языкам. Попробовал изучать C++, понял что
+                            это слишком тяжело для "тогдашнего" меня. Попробовал разрабатывать на Java приложения под
+                            android. </h4>
+                        </article>
+                        <div class="language_img"><img src="static/images/Cpp.png" alt="C++"></div>
+                    </div>
+                    <div class="card">
+                        <article class="offer_structure">
+                            <h2 class="offer_title">Озарение</h2>
+                            <h4 class="offer_subtitle">И вот в 9м классе я узнал о Яндекс Лицее (Ныне лицея академии
+                            Яндекса). Я закончил оба курса с золотым дипломом, а во время второго вошёл в топ
+                            выпускников проекта и получил максимально возможный балл.</h4>
+                        </article>
+                        <div class="language_img"><img src="static/images/yandex.png" alt="yandex"></div>
+                    </div>
+                    <div class="card">
+                        <article class="offer_structure">
+                            <h2 class="offer_title">Начало работы</h2>
+                            <h4 class="offer_subtitle">С тех пор Python является моим любимым языком программирования.
+                            Во время своего 11го класса я успел поучаствовать в первом и единственном выпуске Лицея++
+                            по специальности Django. Так же я успел пройти отбор и стать преподавателем в Лицее
+                            Академии Яндекса. Ну и разумеется я успешно сдал ЕГЭ по информатике на 98 баллов.</h4>
+                        </article>
+                        <div class="language_img"><img src="static/images/django.png" alt="django"></div>
+                    </div>
+                    <div class="card">
+                        <article class="offer_structure">
+                            <h2 class="offer_title">Недоуменее</h2>
+                            <h4 class="offer_subtitle">Но где же появились мои знания фронтенда? А в этом главное
+                            противоречее, я никогда не учился писать фронденд, я всё время свое время тратил на бекэнд.
+                            Однако даже если ты пишешь бэк, ты обязан уметь в основы фронденда, где-то при разработке,
+                            где-то из-за необходимости сделать доп функционал к какому либо проект, я смог на начальном
+                            уровне выучить фронденд. Мне этого хватает для того чтобы сверстать полноценный сайт на
+                            bootstrap-е или же такую визитку на чистом css/js. Но я хочу большего, намного большего....
+                            </h4>
+                        </article>
+                        <div class="language_img"><img src="static/images/question.png" alt="question"></div>
+                    </div>
+                </div>
+            </section>
+            <footer id="f_links">
+                <div class="links" id="footer-links">
+                    <div class="footer_link"><a href="https://github.com/Rogozhin-Dmitry" target="_blank">
+                        <img src="static/icons/white/git.png" alt="me"></a>
+                    </div>
+                    <div class="footer_link"><a href="https://telegram.me/DmitryRogozhin" target="_blank">
+                        <img src="static/icons/white/tg.png" alt="me"></a>
+                    </div>
+                    <div class="footer_link"><a href="https://vk.com/rogozhin_dmitry" target="_blank">
+                        <img src="static/icons/white/vk.png" alt="me"></a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</div>
+<script src="sripts/base.js"></script>
+</body>
+</html>
